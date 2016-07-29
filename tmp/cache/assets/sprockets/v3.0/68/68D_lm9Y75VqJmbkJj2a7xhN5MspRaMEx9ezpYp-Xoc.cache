@@ -1,0 +1,9 @@
+I"‚(function() {
+  this.App = {};
+
+  App.cable = ActionCable.createConsumer();
+
+  console.log(App.cable.connection);
+
+}).call(this);
+:ET

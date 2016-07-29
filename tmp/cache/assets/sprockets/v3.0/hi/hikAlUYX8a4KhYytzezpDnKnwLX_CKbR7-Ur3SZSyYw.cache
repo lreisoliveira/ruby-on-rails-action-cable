@@ -1,0 +1,7 @@
+I"a(function() {
+  this.App = {};
+
+  App.cable = ActionCable.createConsumer();
+
+}).call(this);
+:ET

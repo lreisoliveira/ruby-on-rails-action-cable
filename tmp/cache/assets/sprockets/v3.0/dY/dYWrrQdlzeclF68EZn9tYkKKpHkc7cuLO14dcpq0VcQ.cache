@@ -1,0 +1,9 @@
+I"Å(function() {
+  this.App = {};
+
+  App.cable = ActionCable.createConsumer();
+
+  console.log(App.cable).websocket;
+
+}).call(this);
+:ET
