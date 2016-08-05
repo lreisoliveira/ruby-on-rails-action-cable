@@ -1,9 +1,0 @@
-I"(function() {
-  this.App = {};
-
-  App.cable = ActionCable.createConsumer();
-
-  console.log(App.cable.monitor);
-
-}).call(this);
-:ET

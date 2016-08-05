@@ -2,15 +2,15 @@
 <html>
 <head>
   <title>Action Cable Examples</title>
-  <!-- action_cable_meta_tag %>
-  < stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': true %>
-  < javascript_include_tag 'application', 'data-turbolinks-track': true %>
-  < csrf_meta_tags -->
+  <%= action_cable_meta_tag %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': true %>
+  <%= csrf_meta_tags %>
 
-  <script src="http://angular.websocket/js/bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="http://angul ar.websocket/js/actioncable/actioncable.js"></script>
-  <script src="http://angular.websocket/js/actioncable/channel_index.js"></script>
-  <script src="http://angular.websocket/js/actioncable/channel_comments.js"></script>
+  <!--<script src="http://angular.websocket/js/bower_components/jquery/dist/jquery.min.js"></script>-->
+  <!--<script src="http://angul ar.websocket/js/actioncable/actioncable.js"></script>-->
+  <!--<script src="http://angular.websocket/js/actioncable/channel_index.js"></script>-->
+  <!--<script src="http://angular.websocket/js/actioncable/channel_comments.js"></script>-->
 
   <meta name="current-user" id="<%= @current_user.try(:id) %>">
 </head>
